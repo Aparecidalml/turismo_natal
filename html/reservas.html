@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=122837&format=png&color=000000">
+    <link rel="stylesheet" href="../css/estilo.css">
+
+</head>
+
+<body>
+    <h1 style="text-shadow: 2px 2px #B8860B;">Faça sua Reserva</h1>
+    <fieldset>
+        <form>
+            Nome: <input type="text" placeholder="coloque aqui seu nome" size="30"><br>
+            E-mail*: <input type="email" placeholder="E-mail" required><br>
+            Telefone: <input type="tel" readonly><br>           
+            Locais disponíveis para Reserva: <select name="" id="">
+                <option value="">Escolha aqui</option>
+                <option value="">Ponta Negra</option>
+                <option value="">Aquário Natal</option>
+                <option value="">Forte dos Reis Magos</option>
+                <option value="">Ribeira</option>
+            </select><br>
+            Data: <input type="date"><br>
+            Hora: <input type="time"><br>
+            Quantidade de Adultos: <input type="number" ><br>
+            Quantidade de Crianças: <input type="number" min="0" ><br>
+            Forma de Pagamento: <input type="radio" name="pagamento">Pix
+            <input type="radio" name="pagamento">Crédito
+            <input type="radio" name="pagamento">Débito<br>
+            Observações da Reserva: <br>
+            <textarea name="" id="duvida" rows="5" cols="30"></textarea><br>  
+            <input type="checkbox"> Aceita os termos da reserva? <br>         
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Reservar" onclick="alert('Reserva com sucesso!')">
+            <br>           
+        </form>
+    </fieldset> 
+    <a href="Natal.html"><button>Voltar</button></a>
+</body>
+
+</html>
